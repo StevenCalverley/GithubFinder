@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { User } from "./UserResults";
+import { User } from "../../context/github/githubContext";
 
 interface UserItemProps {
   user: User;
